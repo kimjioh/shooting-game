@@ -84,7 +84,7 @@ function loadImg() {
     enemyImg.src ="img/enemyImg.png";
 
     gameoverImg = new Image();
-    gameoverImg.src ="img/game-over.webp";
+    gameoverImg.src ="img/gameOver.png";
 };
 
 let keysDown = {}
@@ -173,7 +173,7 @@ function main() {
         // console.log("animation call main function");
         requestAnimationFrame(main);
     } else {
-        ctx.drawImage(gameoverImg, 10, 160, 380, 380);
+        ctx.drawImage(gameoverImg, 35, 160, 380, 380);
     };
 
 };
