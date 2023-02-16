@@ -38,6 +38,8 @@ function Bullet(){
                 score++;
                 this.alive = false; //죽은 총알
                 enemyList.splice(i, 1);
+                let audio = new Audio('rara.mp3');
+                audio.play();
             };
         };
     };
