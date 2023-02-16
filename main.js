@@ -82,7 +82,7 @@ function loadImg() {
     enemyImg.src ="img/enemyImg.png";
 
     gameoverImg = new Image();
-    gameoverImg.src ="img/gameoverImg.avif";
+    gameoverImg.src ="img/game-over.webp";
 };
 
 let keysDown = {}
